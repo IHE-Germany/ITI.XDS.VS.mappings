@@ -5,7 +5,7 @@ Für die Zukunft muss allerdings überlegt werden, ob diese nicht besser auf meh
 ### PracticeSetting <-> BundesPflegesatzVerordnung (DKGeV Fachabteilungen)
 
 <div width="500px">
-{% include PracticeSetting.svg %}
+{% include practiceSetting.svg %}
 </div>
 
 
