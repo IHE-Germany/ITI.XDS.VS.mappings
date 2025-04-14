@@ -9,7 +9,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * name = "BPflVerw2IHEXDSpracticeSettingCode"
 
 
-* insert HeaderDetailRules
+* insert HeaderConceptMapRules
 
 * status = #active
 * version = "0.1.0"

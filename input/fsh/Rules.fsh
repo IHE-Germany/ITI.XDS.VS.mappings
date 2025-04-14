@@ -22,14 +22,12 @@ RuleSet: HeaderDetailRules
 
 
 
-RuleSet: HeaderNamingSystemRules
+RuleSet: HeaderConceptMapRules
 
 
 * status = #draft
-* kind = #codesystem
 * date = "2025-04-14"
 //* copyright = "IHE Deutschland e.V."
 * contact.name = "Value Set project team"
 * contact.telecom.system = #url
 * contact.telecom.value = "http://www.ihe-d.de"
-* responsible = "IHE Germany"

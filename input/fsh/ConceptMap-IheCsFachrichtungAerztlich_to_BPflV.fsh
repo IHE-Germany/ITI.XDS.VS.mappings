@@ -9,7 +9,7 @@ Description: "IHEXDS practice setting code to Specialty"
 * name = "IHEXDSpracticeSettingCode2BPflV"
 
 
-* insert HeaderDetailRules
+* insert HeaderConceptMapRules
 
 * status = #active
 * version = "0.1.0"
