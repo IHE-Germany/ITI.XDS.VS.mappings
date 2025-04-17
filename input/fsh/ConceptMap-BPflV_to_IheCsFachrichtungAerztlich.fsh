@@ -22,15 +22,18 @@ Description: "BPflV -> IheCsFachrichtungAerztlich"
 * group.target = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
 
 
-* group.element[+].display = "Allgemeinmedizin"
-* group.element[=].target[+].code = #ALLG
+//remove for testing purposes
+//* group.element[+].display = "Allgemeinmedizin"
+* group.element[+].target[+].code = #ALLG
 * group.element[=].target[=].display = "Allgemeinmedizin"
 * group.element[=].target[=].equivalence = #unmatched
+* group.element[=].target[=].comment = "kein source code"
 
 * group.element[+].display = "Anästhesiologie"
 * group.element[=].target[+].code = #ANAE
 * group.element[=].target[=].display = "Anästhesiologie"
 * group.element[=].target[=].equivalence = #unmatched
+* group.element[=].target[=].comment = "kein source code, aber display"
 
 * group.element[+].display = "Arbeitsmedizin"
 * group.element[=].target[+].code = #ARBE
@@ -82,47 +85,47 @@ Description: "BPflV -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].display = "Radiologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Kinderradiologie"
 * group.element[=].target[+].code = #KRAD
 * group.element[=].target[=].display = "Kinderradiologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Neuroradiologie"
 * group.element[=].target[+].code = #NRAD
 * group.element[=].target[=].display = "Neuroradiologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Rechtsmedizin"
 * group.element[=].target[+].code = #RECH
 * group.element[=].target[=].display = "Rechtsmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Schlafmedizin"
 * group.element[=].target[+].code = #SCHL
 * group.element[=].target[=].display = "Schlafmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Sport- und Bewegungsmedizin"
 * group.element[=].target[+].code = #SPOR
 * group.element[=].target[=].display = "Sport- und Bewegungsmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Transfusionsmedizin"
 * group.element[=].target[+].code = #TRAN
 * group.element[=].target[=].display = "Transfusionsmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Tropen-/Reisemedizin"
 * group.element[=].target[+].code = #TROP
 * group.element[=].target[=].display = "Tropen-/Reisemedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Oralchirurgie"
 * group.element[=].target[+].code = #ORAL
 * group.element[=].target[=].display = "Oralchirurgie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Kieferorthopädie"
 * group.element[=].target[+].code = #KIEF
 * group.element[=].target[=].display = "Kieferorthopädie"
 * group.element[=].target[=].equivalence = #unmatched

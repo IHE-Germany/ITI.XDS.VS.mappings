@@ -28,11 +28,14 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[+].code = #ALLG
 * group.element[=].target[=].display = "Allgemeinmedizin"
 * group.element[=].target[=].equivalence = #unmatched
+* group.element[=].target[=].comment = "no Source Code, but display to show something"
 
-* group.element[+].display = "Anästhesiologie"
-* group.element[=].target[+].code = #ANAE
+//removed for testing purposes
+//* group.element[+].display = "Anästhesiologie"
+* group.element[+].target[+].code = #ANAE
 * group.element[=].target[=].display = "Anästhesiologie"
 * group.element[=].target[=].equivalence = #unmatched
+* group.element[=].target[=].comment = "only target code"
 
 * group.element[+].display = "Arbeitsmedizin"
 * group.element[=].target[+].code = #ARBE

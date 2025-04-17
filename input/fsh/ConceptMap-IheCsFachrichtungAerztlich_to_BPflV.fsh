@@ -31,6 +31,7 @@ Description: "IHEXDS practice setting code to Specialty"
 * group.element[+].code = #ALLG
 * group.element[=].display = "Allgemeinmedizin"
 * group.element[=].target.equivalence = #unmatched
+* group.element[=].target.comment = "Test: kein Target"
 
 * group.element[+].code = #ANAE
 * group.element[=].display = "Anästhesiologie"

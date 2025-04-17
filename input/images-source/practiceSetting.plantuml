@@ -1,8 +1,8 @@
 @startuml
 
 card "PracticeSetting" as ps
-card "DKGeV: Fachabteilungen" as fachabt
-card "DKGeV: erweiterte Fachabteilungen" as fachabterw
+card "DKGeV: Fachabteilungen (BPflV)" as fachabt
+card "DKGeV: erweiterte Fachabteilungen (BPflV)" as fachabterw
 
 ps --> fachabt : [[ConceptMap-IheCsFachrichtungAerztlich2BPflV.html Map]]
 ps --> fachabterw : [[ConceptMap-IheCsFachrichtungAerztlich2BPflVerw.html Map]]
