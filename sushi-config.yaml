@@ -9,7 +9,7 @@ name: IHE_DE_ITI_XDS_VS_Mappings
 title: IHE Germany - Mappings for XDS Value Sets 
 description: Set of Value Set Mappings for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.1.2
+version: 0.1.3
 date: 2025-04-17
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
@@ -75,6 +75,7 @@ parameters:
   usage-stats-opt-out: true
   special-url: 
     - http://ihe-d.de/CodeSystems/FachrichtungenAerztlich
+    - http://fhir.de
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
