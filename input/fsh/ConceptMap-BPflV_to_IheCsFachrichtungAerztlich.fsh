@@ -136,97 +136,95 @@ Description: "BPflV -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #unmatched
 * group.element[=].target[=].comment = "PARO = Parodontologie"
 
-* group.element[+].display = "??"
+* group.element[+].display = "Interdisziplinäre Zusammenarbeit"
 * group.element[=].target[+].code = #INTZ
 * group.element[=].target[=].display = "Interdisziplinäre Zusammenarbeit"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Interdisziplinäre Onkologie"
 * group.element[=].target[+].code = #INTO
 * group.element[=].target[=].display = "Interdisziplinäre Onkologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Interdisziplinäre Schmerzmedizin"
 * group.element[=].target[+].code = #INTS
 * group.element[=].target[=].display = "Interdisziplinäre Schmerzmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Transplantationsmedizin"
 * group.element[=].target[+].code = #TRPL
 * group.element[=].target[=].display = "Transplantationsmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "seltene Erkrankungen"
 * group.element[=].target[+].code = #SELT
 * group.element[=].target[=].display = "seltene Erkrankungen"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Kinder-Hämatologie und -Onkologie"
 * group.element[=].target[+].code = #KONK
 * group.element[=].target[=].display = "Kinder-Hämatologie und -Onkologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Neuropädiatrie"
 * group.element[=].target[+].code = #NPAE
 * group.element[=].target[=].display = "Neuropädiatrie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Laboratoriumsmedizin"
 * group.element[=].target[+].code = #LABO
 * group.element[=].target[=].display = "Laboratoriumsmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Mikrobiologie, Virologie und Infektionsepidemiologie"
 * group.element[=].target[+].code = #MIKR
 * group.element[=].target[=].display = "Mikrobiologie, Virologie und Infektionsepidemiologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Öffentliches Gesundheitswesen"
 * group.element[=].target[+].code = #GESU
 * group.element[=].target[=].display = "Öffentliches Gesundheitswesen"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Palliativmedizin"
 * group.element[=].target[+].code = #PALL
 * group.element[=].target[=].display = "Palliativmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Pathologie"
 * group.element[=].target[+].code = #PATH
 * group.element[=].target[=].display = "Pathologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Neuropathologie"
 * group.element[=].target[+].code = #NPAT
 * group.element[=].target[=].display = "Neuropathologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Pharmakologie"
 * group.element[=].target[+].code = #PHAR
 * group.element[=].target[=].display = "Pharmakologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Toxikologie"
 * group.element[=].target[+].code = #TOXI
 * group.element[=].target[=].display = "Toxikologie"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Physikalische und Rehabilitative Medizin"
 * group.element[=].target[+].code = #REHA
 * group.element[=].target[=].display = "Physikalische und Rehabilitative Medizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Naturheilverfahren und alternative Heilmethoden"
 * group.element[=].target[+].code = #NATU
 * group.element[=].target[=].display = "Naturheilverfahren und alternative Heilmethoden"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "??"
+* group.element[+].display = "Notfallmedizin"
 * group.element[=].target[+].code = #NOTF
 * group.element[=].target[=].display = "Notfallmedizin"
 * group.element[=].target[=].equivalence = #unmatched
-
-
 
 
 

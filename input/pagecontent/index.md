@@ -12,10 +12,14 @@ Für die Zukunft muss allerdings überlegt werden, ob diese nicht besser auf meh
 ### KDL und classCode sowie typeCode
 
 Die konsolidierte Dokumentenliste ist eine Klassifikation, die Überschneidungen mit den Class- und Type-Codes hat.
-Der DVMD hat auf simplifier.net 2 Mappings veröffentlicht:
+Der DVMD hat deshalb auf simplifier.net 2 Mappings veröffentlicht:
 
-* (KDL nach IHE-XDS TypeCode)[https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHETypeCode-2024?version=2025]
-* (Mapping von KDL nach IHE-XDS ClassCode)[https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHEClassCode-2024?version=2025]
+* [KDL nach IHE-XDS TypeCode](https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHETypeCode-2024?version=2025)
+* [Mapping von KDL nach IHE-XDS ClassCode](https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHEClassCode-2024?version=2025)
+
+<div width="500px">
+{% include kdl.svg %}
+</div>
 
 
 ### Weitere Mappings

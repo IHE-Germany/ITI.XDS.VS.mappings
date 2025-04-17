@@ -1,0 +1,10 @@
+@startuml
+
+card "KDL" as kdl
+card "TypeCode" as tc
+card "ClassCode" as cc
+
+kdl --> tc : [[https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHETypeCode-2024?version=2025 Map]]
+kdl --> cc : [[https://simplifier.net/guide/kdl-implementierungsleitfaden-2025/Hauptseite/ConceptMap-2024/MappingvonKDLnachIHEClassCode-2024?version=2025 Map]]
+
+@enduml
