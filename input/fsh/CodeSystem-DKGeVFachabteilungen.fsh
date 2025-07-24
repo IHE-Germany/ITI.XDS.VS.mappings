@@ -1,7 +1,7 @@
 //CodeSystem
 
 CodeSystem: DkgevFachabteilungenErweitertCS
-Id: DkgevIheFachabteilungsschluessel-erweitert
+Id: DkgevFachabteilungsschluessel-erweitert
 Title: "IHE Supplement to DKGeV Fachabteilungen (erweitert) (TEST)"
 Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
 
@@ -22,7 +22,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
 //ValueSet
 
 ValueSet: IheFachabteilungsschluesselErweitertVS
-Id: IheFachabteilungsschluesselErweitert
+Id: FachabteilungsschluesselErweitert
 Title: "IHE Fachabteilungsschluessel-erweitert (Test)"
 Description: "IHE Fachabteilungsschluessel-erweitert"
 
