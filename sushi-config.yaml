@@ -9,8 +9,8 @@ name: IHE_DE_ITI_XDS_VS_Mappings
 title: IHE Germany - Mappings for XDS Value Sets 
 description: Set of Value Set Mappings for IHE IT-I XDS in Germany
 status: draft # draft | active | retired | unknown
-version: 0.1.4
-date: 2025-07-24
+version: 0.1.5
+date: 2025-09-17
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2025+
 releaseLabel: ci-build

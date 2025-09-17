@@ -2,7 +2,10 @@ Instance: BPflVerw2IheCsFachrichtungAerztlich
 InstanceOf: ConceptMap
 Usage: #definition
 Title: "BPflV erw. -> IheCsFachrichtungAerztlich"
-Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
+Description: """
+BPflV erweitert -> IheCsFachrichtungAerztlich
+Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Experten/infos_reha_einrichtungen/klassifikationen/Fachabteilung/reha_fachabteilungen.pdf
+"""
 
 * url = "http://www.ihe-d.de/fhir/ConceptMap/BPflVerw2IheCsFachrichtungAerztlich"
 
@@ -81,11 +84,6 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].display = "Zahnmedizin"
 * group.element[=].target[=].equivalence = #unmatched
 
-* group.element[+].display = "Oralchirurgie"
-* group.element[=].target[+].code = #ORAL
-* group.element[=].target[=].display = "Oralchirurgie"
-* group.element[=].target[=].equivalence = #unmatched
-
 * group.element[+].display = "Kieferorthopädie"
 * group.element[=].target[+].code = #KIEF
 * group.element[=].target[=].display = "Kieferorthopädie"
@@ -109,11 +107,6 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[+].display = "Interdisziplinäre Zusammenarbeit"
 * group.element[=].target[+].code = #INTZ
 * group.element[=].target[=].display = "Interdisziplinäre Zusammenarbeit"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Interdisziplinäre Onkologie"
-* group.element[=].target[+].code = #INTO
-* group.element[=].target[=].display = "Interdisziplinäre Onkologie"
 * group.element[=].target[=].equivalence = #unmatched
 
 * group.element[+].display = "Transplantationsmedizin"
@@ -219,37 +212,40 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Innere Medizin/Schwerpunkt Gastroenterologie"
 * group.element[=].target[+].code = #GAST
 * group.element[=].target[=].display = "Gastroenterologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0108
 * group.element[=].display = "Innere Medizin/Schwerpunkt Pneumologie"
 * group.element[=].target[+].code = #PNEU
 * group.element[=].target[=].display = "Pneumologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0109
 * group.element[=].display = "Innere Medizin/Schwerpunkt Rheumatologie"
 * group.element[=].target[+].code = #RHEU
 * group.element[=].target[=].display = "Rheumatologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0114
 * group.element[=].display = "Innere Medizin/Schwerpunkt Lungen- und Bronchialheilkunde"
 * group.element[=].target[+].code = #PNEU
 * group.element[=].target[=].display = "Pneumologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #0150
 * group.element[=].display = "Innere Medizin/Tumorforschung"
 * group.element[=].target[+].code = #HAEM
 * group.element[=].target[=].display = "Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #0151
 * group.element[=].display = "Innere Medizin/Schwerpunkt Coloproktologie"
 * group.element[=].target[+].code = #GAST
 * group.element[=].target[=].display = "Gastroenterologie"
 * group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #0152
 * group.element[=].display = "Innere Medizin/Schwerpunkt Infektionskrankheiten"
@@ -267,7 +263,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Innere Medizin/Schwerpunkt Naturheilkunde"
 * group.element[=].target[+].code = #NATU
 * group.element[=].target[=].display = "Naturheilverfahren und alternative Heilmethoden"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0156
 * group.element[=].display = "Innere Medizin/Schwerpunkt Schlaganfallpatienten"
@@ -291,13 +287,13 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Geriatrie/Tagesklinik (für teilstationäre Pflegesätze)"
 * group.element[=].target[+].code = #GERI
 * group.element[=].target[=].display = "Geriatrie"
-* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0261
 * group.element[=].display = "Geriatrie/Nachtklinik (für teilstationäre Pflegesätze)"
 * group.element[=].target[+].code = #GERI
 * group.element[=].target[=].display = "Geriatrie"
-* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0300
 * group.element[=].display = "Kardiologie"
@@ -339,16 +335,20 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Hämatologie und internistische Onkologie/Schwerpunkt Frauenheilkunde"
 * group.element[=].target[+].code = #HAEM
 * group.element[=].target[=].display = "Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #GONK
 * group.element[=].target[=].display = "Gynäkologische Onkologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #0533
 * group.element[=].display = "Hämatologie und internistische Onkologie/Schwerpunkt Strahlenheilkunde"
 * group.element[=].target[+].code = #HAEM
 * group.element[=].target[=].display = "Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[+].code = #INTO
+* group.element[=].target[=].display = "Interdisziplinäre Onkologie"
+* group.element[=].target[=].equivalence = #equivalent
+
 
 * group.element[+].code = #0600
 * group.element[=].display = "Endokrinologie"
@@ -420,12 +420,15 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
+* group.element[=].target[+].code = #NEPH
+* group.element[=].target[=].display = "Nephrologie"
+* group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #1005
 * group.element[=].display = "Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie"
 * group.element[=].target[+].code = #KONK
 * group.element[=].target[=].display = "Kinder-Hämatologie und -Onkologie"
-* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1006
 * group.element[=].display = "Pädiatrie/Schwerpunkt Endokrinologie"
@@ -435,12 +438,18 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #1007
 * group.element[=].display = "Pädiatrie/Schwerpunkt Gastroenterologie"
+* group.element[=].target[+].code = #GAST
+* group.element[=].target[=].display = "Gastroenterologie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #1009
 * group.element[=].display = "Pädiatrie/Schwerpunkt Rheumatologie"
+* group.element[=].target[+].code = #RHEU
+* group.element[=].target[=].display = "Rheumatologie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
@@ -459,6 +468,9 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #1014
 * group.element[=].display = "Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde"
+* group.element[=].target[+].code = #PNEU
+* group.element[=].target[=].display = "Pneumologie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
@@ -510,7 +522,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Lungen- und Bronchialheilkunde"
 * group.element[=].target[+].code = #PNEU
 * group.element[=].target[=].display = "Pneumologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1410
 * group.element[=].display = "Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie"
@@ -531,7 +543,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #KDCH
 * group.element[=].target[=].display = "Kinderchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1516
 * group.element[=].display = "Allgemeine Chirurgie/Schwerpunkt Unfallchirurgie"
@@ -540,16 +552,17 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #UNFC
 * group.element[=].target[=].display = "Unfallchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1518
 * group.element[=].display = "Allgemeine Chirurgie/Schwerpunkt Gefäßchirurgie"
 * group.element[=].target[+].code = #ALCH
 * group.element[=].target[=].display = "Allgemeinchirurgie"
 * group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].comment = "verify!"
 * group.element[=].target[+].code = #GFCH
 * group.element[=].target[=].display = "Gefäßchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1519
 * group.element[=].display = "Allgemeine Chirurgie/Schwerpunkt Plastische Chirurgie"
@@ -567,7 +580,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #THCH
 * group.element[=].target[=].display = "Thoraxchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #1523
 * group.element[=].display = "Chirurgie/Schwerpunkt Orthopädie"
@@ -576,7 +589,8 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #ORTH
 * group.element[=].target[=].display = "Orthopädie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].comment = "that includes orthopaedics in general"
 
 * group.element[+].code = #1536
 * group.element[=].display = "Allgemeine Chirurgie/Intensivmedizin (§ 13 Abs. 2 Satz 3, 2. Halbs. BPflV in der am 31.12.2003 geltenden Fassung)"
@@ -733,20 +747,20 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #2405
 * group.element[=].display = "Frauenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie"
+* group.element[=].target[+].code = #GONK
+* group.element[=].target[=].display = "Gynäkologische Onkologie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #FRAU
 * group.element[=].target[=].display = "Frauenheilkunde und Geburtshilfe"
 * group.element[=].target[=].equivalence = #wider
-* group.element[=].target[+].code = #GONK
-* group.element[=].target[=].display = "Gynäkologische Onkologie"
-* group.element[=].target[=].equivalence = #equal
 
 * group.element[+].code = #2406
 * group.element[=].display = "Frauenheilkunde/Schwerpunkt Endokrinologie"
-* group.element[=].target[+].code = #FRAU
-* group.element[=].target[=].display = "Frauenheilkunde und Geburtshilfe"
-* group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #GEND
 * group.element[=].target[=].display = "Gynäkologische Endokrinologie und Reproduktionsmedizin"
+* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[+].code = #FRAU
+* group.element[=].target[=].display = "Frauenheilkunde und Geburtshilfe"
 * group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #2425
@@ -785,6 +799,9 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #2810
 * group.element[=].display = "Neurologie/Schwerpunkt Pädiatrie"
+* group.element[=].target[+].code = #NPAE
+* group.element[=].target[=].display = "Neuropädiatrie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #NEUR
 * group.element[=].target[=].display = "Neurologie"
 * group.element[=].target[=].equivalence = #wider
@@ -822,12 +839,12 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #2930
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Kinder- und Jugendpsychiatrie"
+* group.element[=].target[+].code = #KPSY
+* group.element[=].target[=].display = "Kinder- und Jugendpsychiatrie und -psychotherapie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #PSYC
 * group.element[=].target[=].display = "Psychiatrie und Psychotherapie"
 * group.element[=].target[=].equivalence = #wider
-* group.element[=].target[+].code = #KPSY
-* group.element[=].target[=].display = "Kinder- und Jugendpsychiatrie und -psychotherapie"
-* group.element[=].target[=].equivalence = #equal
 
 * group.element[+].code = #2931
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Psychosomatik/Psychotherapie"
@@ -836,7 +853,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #2950
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung"
@@ -852,12 +869,12 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #2952
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Forensische Behandlung"
+* group.element[=].target[+].code = #FPSY
+* group.element[=].target[=].display = "Forensische Psychiatrie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #PSYC
 * group.element[=].target[=].display = "Psychiatrie und Psychotherapie"
 * group.element[=].target[=].equivalence = #wider
-* group.element[=].target[+].code = #FPSY
-* group.element[=].target[=].display = "Forensische Psychiatrie"
-* group.element[=].target[=].equivalence = #equal
 
 * group.element[+].code = #2953
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik"
@@ -922,21 +939,24 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 
 * group.element[+].code = #3110
 * group.element[=].display = "Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik"
+* group.element[=].target[+].code = #KPSY
+* group.element[=].target[=].display = "Kinder- und Jugendpsychiatrie und -psychotherapie"
+* group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #3160
 * group.element[=].display = "Psychosomatik/Psychotherapie/Tagesklinik (für teilstationäre Pflegesätze)"
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #3161
 * group.element[=].display = "Psychosomatik/Psychotherapie/Nachtklinik (für teilstationäre Pflegesätze)"
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 
 
@@ -950,13 +970,22 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Nuklearmedizin/Schwerpunkt Strahlenheilkunde"
 * group.element[=].target[+].code = #NUKL
 * group.element[=].target[=].display = "Nuklearmedizin"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[+].code = #STRA
+* group.element[=].target[=].display = "Strahlentherapie"
+* group.element[=].target[=].equivalence = #equivalent
+
+* group.element[+].code = #3300
+* group.element[=].display = "Strahlenheilkunde"
 * group.element[=].target[+].code = #STRA
 * group.element[=].target[=].display = "Strahlentherapie"
 * group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #3305
 * group.element[=].display = "Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie"
+* group.element[=].target[+].code = #INTO
+* group.element[=].target[=].display = "Interdisziplinäre Onkologie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #STRA
 * group.element[=].target[=].display = "Strahlentherapie"
 * group.element[=].target[=].equivalence = #wider
@@ -980,9 +1009,11 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].display = "Haut- und Geschlechtskrankheiten"
 * group.element[=].target[=].equivalence = #wider
 
-
 * group.element[+].code = #3500
 * group.element[=].display = "Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie"
+* group.element[=].target[+].code = #ORAL
+* group.element[=].target[=].display = "Oralchirurgie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #MKGC
 * group.element[=].target[=].display = "Mund-Kiefer-Gesichtschirurgie"
 * group.element[=].target[=].equivalence = #wider
@@ -1118,9 +1149,10 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Schmerztherapie"
 * group.element[=].target[+].code = #INTS
 * group.element[=].target[=].display = "Interdisziplinäre Schmerzmedizin"
-* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "verify!!"
 * group.element[=].target[+].code = #ANAE
+* group.element[=].target[=].display = "Anästhesiologie"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[=].comment = "verify!!"
 
@@ -1128,7 +1160,7 @@ Description: "BPflV erweitert -> IheCsFachrichtungAerztlich"
 * group.element[=].display = "Heiltherapeutische Abteilung"
 * group.element[=].target[+].code = #NATU
 * group.element[=].target[=].display = "Naturheilverfahren und alternative Heilmethoden"
-* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #3755
 * group.element[=].display = "Wirbelsäulenchirurgie"

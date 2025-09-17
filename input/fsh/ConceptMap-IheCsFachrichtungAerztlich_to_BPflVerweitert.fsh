@@ -635,11 +635,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].equivalence = #equal
 
 
-
-
 * group.element[+].code = #ORAL
 * group.element[=].display = "Oralchirurgie"
-* group.element[=].target.equivalence = #unmatched
+* group.element[=].target[+].code = #3500
+* group.element[=].target[=].display = "Zahn- und Kieferheilkunde, Mund- und Kieferchirurgie"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #ORTH
 * group.element[=].display = "Orthopädie"
@@ -863,6 +863,10 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].display = "Nuklearmedizin/Schwerpunkt Strahlenheilkunde"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #3300
+* group.element[=].target[=].display = "Strahlenheilkunde"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #3305
 * group.element[=].target[=].display = "Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie"

@@ -13,6 +13,11 @@ Für die Zukunft muss allerdings überlegt werden, ob diese nicht besser auf meh
 * [Fachabteilung -> PracticeSetting](ConceptMap-BPflV2IheCsFachrichtungAerztlich.html)
 * [erweiterte Fachabteilung -> PracticeSetting](ConceptMap-BPflVerw2IheCsFachrichtungAerztlich.html)
 
+
+Source für erweiterten Schlüssel:
+
+* [DRV](https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Experten/infos_reha_einrichtungen/klassifikationen/Fachabteilung/reha_fachabteilungen.pdf)
+
 ### KDL -> classCode sowie typeCode
 
 Die konsolidierte Dokumentenliste ist eine Klassifikation, die Überschneidungen mit den Class- und Type-Codes hat.
