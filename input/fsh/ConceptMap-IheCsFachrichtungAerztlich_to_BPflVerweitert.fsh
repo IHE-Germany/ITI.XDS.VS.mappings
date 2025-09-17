@@ -86,7 +86,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #0600
-* group.element[=].target[=].display = "Endokrinologie"
+* group.element[=].target[=].display = "Endokrinologie (und Diabetologie)"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 

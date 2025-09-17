@@ -17,6 +17,8 @@ Für die Zukunft muss allerdings überlegt werden, ob diese nicht besser auf meh
 Source für erweiterten Schlüssel:
 
 * [DRV](https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Experten/infos_reha_einrichtungen/klassifikationen/Fachabteilung/reha_fachabteilungen.pdf)
+* [KBV](https://www.gkv-datenaustausch.de/media/dokumente/leistungserbringer_1/krankenhaeuser/archiv/technische_anlage_2/2_anl2-123.pdf)
+* [VDEK](https://www.vdek.com/vertragspartner/Krankenhaeuser/Datenaustausch/technische_anlagen_2019/_jcr_content/par/download_1899237012/file.res/anl2-97.pdf)
 
 ### KDL -> classCode sowie typeCode
 

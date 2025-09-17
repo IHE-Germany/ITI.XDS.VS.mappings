@@ -264,7 +264,7 @@ Description: "BPflV -> IheCsFachrichtungAerztlich"
 * group.element[=].target[=].equivalence = #equal
 
 * group.element[+].code = #0600
-* group.element[=].display = "Endokrinologie"
+* group.element[=].display = "Endokrinologie (und Diabetologie)"
 * group.element[=].target[+].code = #ENDO
 * group.element[=].target[=].display = "Endokrinologie und Diabetologie"
 * group.element[=].target[=].equivalence = #wider
