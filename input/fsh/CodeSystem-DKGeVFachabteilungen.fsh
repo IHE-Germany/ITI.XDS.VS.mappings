@@ -45,680 +45,6 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
 * ^property[=].description = "Status"
 * ^property[=].type = #code
 
-* #0301  "Kardiologie - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Kardio"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #0360  "Kardiologie Post-Covid"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Kardio"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.11.2024"
-  * ^property[+].code = #comment
-  * ^property[=].valueString = "FASC Neu"
-* #0370  "Kardiologie Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Kardio"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0385  "Kardiologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0395  "Kardiologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Kardio"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0397  "Kardiologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Kardio"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0400  "Nephrologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0401  "Nephrologie - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #0470  "Nephrologie Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0485  "Nephrologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0495  "Nephrologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0497  "Nephrologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0500  "Hämatologie und internistische Onkologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0501  "Hämatologie und internistische Onkologie - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #0570  "Hämatologie und internistische Onkologie Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0585  "Hämatologie und internistische Onkologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0595  "Hämatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0597  "Hämatologie und internistische Onkologie MBOR"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0600  "Endokrinologie (und Diabetologie)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0601  "Endokrinologie (und Diabetologie) - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #0685  "Endokrinologie (und Diabetologie) - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0695  "Endokrinologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0697  "Endokrinologie (und Diabetologie) Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0700  "Gastroenterologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0701  "Gastroenterologie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #7070  "Gastroenterologie Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0785  "Gastroenterologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0795  "Gastroenterologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0797  "Gastroenterologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Gastro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0900  "Rheumatologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Rheuma"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0901  "Rheumatologie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Rheuma"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #0985  "Rheumatologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #0995  "Rheumatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Rheuma"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #0997  "Rheumatologie Medizinisch-beruflich orientierte Rehabilitation MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Rheuma"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1000  "Pädiatrie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #1006  "Pädiatrie / Schwerpunkt Endokrinologie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1008  "Pädiatrie / Schwerpunkt Endokrinologie, begleitete Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "17.10.2022"
-* #1010  "Pädiatrie Psychosomatik"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1011  "Pädiatrie Psychosomatik, begleitete Kinder - temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "08.08.2022"
-* #1014  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1015  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde, begl. Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "17.10.2022"
-* #1020  "Sprach- und Sprechstörungen"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1021  "Pädiatrie / Sprach- und Sprechstörungen, begleitete Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "08.08.2022"
-* #1028  "Pädiatrie / Schwerpunkt Kinderneurologie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1029  "Pädiatrie / Schwerpunkt Kinderneurologie, begleitete Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "17.10.2022"
-* #1030  "Abhängigkeitserkrankungen"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1031  "Pädiatrie Abhängigkeitserkrankungen, begleitete Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "17.10.2022"
-* #1040  "Psychiatrische Jugendrehabilitation (PJR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1041  "Pädiatrie Psychiatrische Jugendrehabilitation (PJR), begleitete Kinder – temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "17.10.2022"
-* #1085  "Pädiatrie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1090  "Begleitete Kinder"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "KiJu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1400  "Lungen- und Bronchialheilkunde"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1401  "Lungen- und Bronchialheilkunde - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #1460  "Lungen- und Bronchialheilkunde Post-Covid"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.11.2024"
-  * ^property[+].code = #comment
-  * ^property[=].valueString = "FASC Neu"
-* #1470  "Lungen- und Bronchialheilkunde Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1485  "Lungen- und Bronchialheilkunde - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #1495  "Lungen- und Bronchialheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #1497  "Lungen- und Bronchialheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Pneu"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2200  "Urologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2201  "Urologie - temporär"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2270  "Urologie - Transplantation"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2285  "Urologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2295  "Urologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2297  "Urologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2300  "Orthopädie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Ortho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2301  "Orthopädie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Ortho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2385  "Orthopädie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2395  "Orthopädie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Ortho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2397  "Orthopädie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Ortho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2400  "Frauenheilkunde und Geburtshilfe"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2401  "Frauenheilkunde und Geburtshilfe - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2485  "Frauenheilkunde / Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2495  "Frauenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2497  "Frauenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Onko"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2600  "Hals- Nasen- Ohren-Heilkunde"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "HNO"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2601  "Hals-, Nasen-, Ohrenheilkunde - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "HNO"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2685  "Hals- Nasen- Ohren-Heilkunde - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2695  "Hals-, Nasen-, Ohrenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "HNO"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2697  "Hals-, Nasen-, Ohrenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "HNO"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2700  "Augenheilkunde"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2701  "Augenheilkunde - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2785  "Augenheilkunde - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2795  "Augenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2797  "Augenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2800  "Neurologie Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2801  "Neurologie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2860  "Neurologie Post-Covid"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.11.2024"
-  * ^property[+].code = #comment
-  * ^property[=].valueString = "FASC Neu"
-* #2885  "Neurologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2891  "Neurologie Phase C"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #2892  "Neurologie Phase E"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #2895  "Neurologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #2897  "Neurologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Neuro"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #3100  "Psychosomatik/Psychotherapie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #3101  "Psychosomatik/Psychotherapie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #3102  "Psychosomatik/Psychotherapie - temporär –"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #3160  "Psychosomatik/Psychotherapie Post-Covid"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.11.2024"
-  * ^property[+].code = #comment
-  * ^property[=].valueString = "FASC Fachliche Umwidmung"
-* #3185  "Psychosomatik/Psychotherapie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #3195  "Psychosomatik/Psychotherapie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3197  "Psychosomatik/Psychotherapie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Psycho"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #3400  "Dermatologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Haut"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3401  "Dermatologie - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Haut"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #3485  "Dermatologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3495  "Dermatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Haut"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3497  "Dermatologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Haut"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3710  "Lymphologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3711  "Lymphologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3712  "Lymphologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3713  "Lymphologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3750  "Angiologie"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #3785  "Angiologie - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3795  "Angiologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #3797  "Angiologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Innere"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #8200  "Prävention"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #8501  "Entwöhnungsbehandlungen - Alkohol / Medikamente"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Entw"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #8502  "Entwöhnungsbehandlungen - Illegale Drogen"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Entw"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #8504  "Nicht stoffgebundene Süchte"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Entw"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #8506  "Entwöhnungsbehandlungen - Adaption"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2020"
-* #8510  "Ambulante Rehabilitation Sucht amb"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Entw"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #8585  "Entwöhnungsbehandlungen - Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #8600  "Med. berufliche Rehabilitation (Phase II)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #8685  "Med. berufliche Rehabilitation (Phase II) – Nachsorge"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #8800  "Rehabilitation psychisch Kranker (RPK)"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
-* #9000  "Sondertatbestände"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9010  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9011  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9012  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9013  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9014  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9015  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9016  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9017  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9018  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9019  "Modellprojekte - temporär -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "ohne"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "01.01.2021"
-* #9999  "Fachabteilungsschlüssel unbekannt keine ABTNR"
-  * ^property[+].code = #from
-  * ^property[=].valueString = "seit Beginn"
 * #0000  "Keine Untergliederung in Fachabteilungen"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Innere"
@@ -755,7 +81,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #0085  "Keine Zuordnung zu spezifischem Fachgebiet -Nachsorge"
+* #0085  "Keine Zuordnung zu spezifischem Fachgebiet - Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
@@ -915,7 +241,9 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #0185  "Innere Medizin - Nachsorge"
+* #0185  "Innere Medizin"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
@@ -1012,6 +340,28 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0301  "Kardiologie - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Kardio"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #0360  "Kardiologie Post-Covid"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Kardio"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.11.2024"
+  * ^property[+].code = #comment
+  * ^property[=].valueString = "FASC Neu"
+* #0370  "Kardiologie Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Kardio"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0385  "Kardiologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0390  "2. Kardiologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Kardio"
@@ -1039,6 +389,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0395  "Kardiologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Kardio"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0397  "Kardiologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Kardio"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0398  "Kardiologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Kardio"
@@ -1048,6 +408,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0400  "Nephrologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0401  "Nephrologie - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #0410  "Nephrologie/Schwerpunkt Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1066,6 +436,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0470  "Nephrologie Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0485  "Nephrologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0490  "Nephrologie Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Innere"
@@ -1093,6 +473,26 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0495  "Nephrologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0497  "Nephrologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0500  "Hämatologie und internistische Onkologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0501  "Hämatologie und internistische Onkologie - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #0510  "Hämatologie und internistische Onkologie/Schwerpunkt Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1120,6 +520,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0570  "Hämatologie und internistische Onkologie Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0585  "Hämatologie und internistische Onkologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0590  "2. Hämatologie und internistische Onkologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1147,6 +557,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0595  "Hämatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0597  "Hämatologie und internistische Onkologie MBOR"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0598  "Hämatologie und internistische Onkologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1156,6 +576,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0600  "Endokrinologie (und Diabetologie)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0601  "Endokrinologie (und Diabetologie) - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #0607  "Endokrinologie/Schwerpunkt Gastroenterologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
@@ -1174,6 +604,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0685  "Endokrinologie (und Diabetologie) - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0690  "Endokrinologie Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
@@ -1201,6 +636,26 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0695  "Endokrinologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0697  "Endokrinologie (und Diabetologie) Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0700  "Gastroenterologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0701  "Gastroenterologie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #0706  "Gastroenterologie/Schwerpunkt Endokrinologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
@@ -1219,6 +674,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #7070  "Gastroenterologie Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0785  "Gastroenterologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0790  "2. Gastroenterologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
@@ -1246,6 +711,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0795  "Gastroenterologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #0797  "Gastroenterologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Gastro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0798  "Gastroenterologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
@@ -1264,7 +739,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #0885  "Pneumologie – Nachsorge"
+* #0885  "Pneumologie - Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
@@ -1307,6 +782,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0900  "Rheumatologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Rheuma"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0901  "Rheumatologie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Rheuma"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #0910  "Rheumatologie/Schwerpunkt Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1316,6 +801,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0985  "Rheumatologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #0990  "Rheumatologie Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Innere"
@@ -1343,6 +833,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #0995  "Rheumatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Rheuma"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #0997  "Rheumatologie Medizinisch-beruflich orientierte Rehabilitation MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Rheuma"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #0998  "Rheumatologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Innere"
@@ -1352,6 +852,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1000  "Pädiatrie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #1004  "Pädiatrie/Schwerpunkt Nephrologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1370,6 +875,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1006  "Pädiatrie / Schwerpunkt Endokrinologie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #1007  "Pädiatrie/Schwerpunkt Gastroenterologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1379,6 +889,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1008  "Pädiatrie / Schwerpunkt Endokrinologie, begleitete Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "17.10.2022"
 * #1009  "Pädiatrie/Schwerpunkt Rheumatologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1388,6 +903,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1010  "Pädiatrie Psychosomatik"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #1011  "Pädiatrie Psychosomatik, begleitete Kinder - temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "08.08.2022"
 * #1012  "Pädiatrie/Schwerpunkt Neonatologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1397,6 +922,56 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1014  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #1015  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde, begl. Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "17.10.2022"
+* #1020  "Sprach- und Sprechstörungen"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #1021  "Pädiatrie / Sprach- und Sprechstörungen, begleitete Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "08.08.2022"
+* #1028  "Pädiatrie / Schwerpunkt Kinderneurologie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #1029  "Pädiatrie / Schwerpunkt Kinderneurologie, begleitete Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "17.10.2022"
+* #1030  "Abhängigkeitserkrankungen"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #1031  "Pädiatrie Abhängigkeitserkrankungen, begleitete Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "17.10.2022"
+* #1040  "Psychiatrische Jugendrehabilitation (PJR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #1041  "Pädiatrie Psychiatrische Jugendrehabilitation (PJR), begleitete Kinder – temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "17.10.2022"
 * #1050  "Pädiatrie/Schwerpunkt Perinatalmedizin"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1415,6 +990,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1085  "Pädiatrie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #1090  "Begleitete Kinder"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "KiJu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #1091  "3. Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1487,6 +1072,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1400  "Lungen- und Bronchialheilkunde"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #1401  "Lungen- und Bronchialheilkunde - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #1410  "Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1496,6 +1091,23 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1460  "Lungen- und Bronchialheilkunde Post-Covid"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.11.2024"
+  * ^property[+].code = #comment
+  * ^property[=].valueString = "FASC Neu"
+* #1470  "Lungen- und Bronchialheilkunde Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #1485  "Lungen- und Bronchialheilkunde - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #1490  "Lungen- und Bronchialheilkunde (2. Abt.)"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Pneu/Haut"
@@ -1523,6 +1135,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #1495  "Lungen- und Bronchialheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #1497  "Lungen- und Bronchialheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Pneu"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #1498  "Lungen- und Bronchialheilkunde MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Pneu/Haut"
@@ -1739,6 +1361,26 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2200  "Urologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2201  "Urologie - temporär"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #2270  "Urologie - Transplantation"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2285  "Urologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2290  "Urologie Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1766,6 +1408,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2295  "Urologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2297  "Urologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2298  "Urologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1775,6 +1427,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2300  "Orthopädie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Ortho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2301  "Orthopädie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Ortho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #2309  "Orthopädie/Schwerpunkt Rheumatologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Ortho"
@@ -1802,6 +1464,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2385  "Orthopädie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2390  "2. Orthopädie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Ortho"
@@ -1829,6 +1496,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2395  "Orthopädie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Ortho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2397  "Orthopädie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Ortho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2398  "Orthopädie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Ortho"
@@ -1838,6 +1515,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2400  "Frauenheilkunde und Geburtshilfe"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2401  "Frauenheilkunde und Geburtshilfe - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #2402  "Frauenheilkunde/Schwerpunkt Geriatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1874,6 +1561,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2485  "Frauenheilkunde / Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2490  "Frauenheilkunde und Geburtshilfe Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1901,6 +1593,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2495  "Frauenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2497  "Frauenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Onko"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #2500  "Geburtshilfe"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -1910,13 +1612,28 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #2610  "Hals- Nasen- Ohren-Heilkunde – Nachsorge"
+* #2600  "Hals- Nasen- Ohren-Heilkunde"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "HNO"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2601  "Hals-, Nasen-, Ohrenheilkunde - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "HNO"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #2610  "Hals- Nasen- Ohren-Heilkunde - Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2685  "Hals- Nasen- Ohren-Heilkunde - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #2690  "Hals-, Nasen-, Ohrenheilkunde Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "HNO"
@@ -1926,6 +1643,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2695  "Hals-, Nasen-, Ohrenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "HNO"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2697  "Hals-, Nasen-, Ohrenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "HNO"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2698  "Hals-, Nasen-, Ohrenheilkunde MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "HNO"
@@ -1935,6 +1662,41 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2700  "Augenheilkunde"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2701  "Augenheilkunde - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #2785  "Augenheilkunde - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2795  "Augenheilkunde Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2797  "Augenheilkunde Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2800  "Neurologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2801  "Neurologie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #2810  "Neurologie/Schwerpunkt Pädiatrie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -1953,6 +1715,18 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #2860  "Neurologie Post-Covid"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.11.2024"
+  * ^property[+].code = #comment
+  * ^property[=].valueString = "FASC Neu"
+* #2885  "Neurologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2890  "2. Neurologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Neuro"
@@ -1962,6 +1736,27 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+
+* #2891  "Neurologie Phase C"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #2892  "Neurologie Phase E"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #2895  "Neurologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #2897  "Neurologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Neuro"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #2898  "Neurologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Neuro"
@@ -2088,9 +1883,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #2985  "Allgemeine Psychiatrie -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Nachsorge"
+* #2985  "Allgemeine Psychiatrie - Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
@@ -2169,9 +1962,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #3085  "Kinder- und Jugendpsychiatrie -"
-  * ^property[+].code = #bereich
-  * ^property[=].valueString = "Nachsorge"
+* #3085  "Kinder- und Jugendpsychiatrie - Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
@@ -2205,6 +1996,21 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3100  "Psychosomatik/Psychotherapie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #3101  "Psychosomatik/Psychotherapie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #3102  "Psychosomatik/Psychotherapie - temporär –"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #3110  "Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
@@ -2214,6 +2020,13 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3160  "Psychosomatik/Psychotherapie Post-Covid"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.11.2024"
+  * ^property[+].code = #comment
+  * ^property[=].valueString = "FASC Fachliche Umwidmung"
 //redefined (see above)
 //* #3160  "Psychosomatik/Psychotherapie/Tagesklinik (für teilstationäre Pflegesätze)"
 //  * ^property[+].code = #bereich
@@ -2233,6 +2046,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3185  "Psychosomatik/Psychotherapie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #3190  "2. Psychosomatik/Psychotherapie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Psycho"
@@ -2260,6 +2078,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3195  "Psychosomatik/Psychotherapie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3197  "Psychosomatik/Psychotherapie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Psycho"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #3198  "Psychosomatik/Psychotherapie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Psycho"
@@ -2314,6 +2142,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3400  "Dermatologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Haut"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3401  "Dermatologie - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Haut"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #3460  "Dermatologie/Tagesklinik (für teilstationäre Pflegesätze)"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Pneu/Haut"
@@ -2323,6 +2161,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3485  "Dermatologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #3490  "2. Dermatologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Pneu/Haut"
@@ -2350,6 +2193,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3495  "Dermatologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Haut"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3497  "Dermatologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Haut"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #3498  "Dermatologie MBOR ambulant"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Pneu/Haut"
@@ -2503,6 +2356,31 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3710  "Lymphologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3711  "Lymphologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3712  "Lymphologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3713  "Lymphologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3750  "Angiologie"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #3751  "Radiologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Onko"
@@ -2566,6 +2444,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3785  "Angiologie - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #3790  "Sonstige Fachabteilung Abteilung 2"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Innere"
@@ -2593,6 +2476,21 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #3795  "Angiologie Verhaltensmedizinisch orientierte Rehabilitation (VOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #3797  "Angiologie Medizinisch-beruflich orientierte Rehabilitation (MBOR)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Innere"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #8200  "Prävention"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #8500  "Entwöhnungsbehandlungen"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Entw"
@@ -2602,6 +2500,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2020"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #8501  "Entwöhnungsbehandlungen - Alkohol / Medikamente"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Entw"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #8502  "Entwöhnungsbehandlungen - Illegale Drogen"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Entw"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
 * #8503  "Entwöhnungsbehandlungen - Medikamente"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Entw"
@@ -2611,6 +2519,11 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2020"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #8504  "Nicht stoffgebundene Süchte"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Entw"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
 * #8505  "Entwöhnungsbehandlungen -Mehrfachabhängigkeiten"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Entw"
@@ -2620,6 +2533,21 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2020"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #8506  "Entwöhnungsbehandlungen - Adaption"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2020"
+* #8510  "Ambulante Rehabilitation Sucht amb"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "Entw"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #8585  "Entwöhnungsbehandlungen - Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #8590  "2. Entwöhnungsbehandlungen"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Entw"
@@ -2665,6 +2593,16 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #8600  "Med. berufliche Rehabilitation (Phase II)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+* #8685  "Med. berufliche Rehabilitation (Phase II) – Nachsorge"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #8690  "2. Med.-berufl., Phase II"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "ohne"
@@ -2755,11 +2693,75 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
+* #8800  "Rehabilitation psychisch Kranker (RPK)"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
 * #8900  "Nachsorge"
   * ^property[+].code = #from
   * ^property[=].valueString = "seit Beginn"
   * ^property[+].code = #until
   * ^property[=].valueString = "31.12.2020"
+* #9000  "Sondertatbestände"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9010  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9011  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9012  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9013  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9014  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9015  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9016  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9017  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9018  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9019  "Modellprojekte - temporär -"
+  * ^property[+].code = #bereich
+  * ^property[=].valueString = "ohne"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "01.01.2021"
+* #9999  "Fachabteilungsschlüssel unbekannt keine ABTNR"
+  * ^property[+].code = #from
+  * ^property[=].valueString = "seit Beginn"
+  
 
 
 
