@@ -99,12 +99,17 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
+* group.element[=].target[+].code = #1006
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Endokrinologie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
 
 * group.element[+].code = #FPSY
 * group.element[=].display = "Forensische Psychiatrie"
 * group.element[=].target[+].code = #2952
 * group.element[=].target[=].display = "Allgemeine Psychiatrie/Schwerpunkt Forensische Behandlung"
-* group.element[=].target.equivalence = #wider
+* group.element[=].target.equivalence = #equivalent
 
 
 * group.element[+].code = #FRAU
@@ -125,6 +130,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #2406
 * group.element[=].target[=].display = "Frauenheilkunde/Schwerpunkt Endokrinologie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #2425
+* group.element[=].target[=].display = "Frauenheilkunde"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -152,6 +162,21 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].display = "Endokrinologie/Schwerpunkt Gastroenterologie"
 * group.element[=].target[=].equivalence = #equal
 
+* group.element[=].target[+].code = #0706
+* group.element[=].target[=].display = "Gastroenterologie/Schwerpunkt Endokrinologie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #0710
+* group.element[=].target[=].display = "Gastroenterologie/Schwerpunkt Pädiatrie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #1007
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Gastroenterologie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "verify!"
+
 * group.element[+].code = #GEND
 * group.element[=].display = "Gynäkologische Endokrinologie und Reproduktionsmedizin"
 * group.element[=].target[+].code = #2406
@@ -167,8 +192,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0102
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Geriatrie"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #0224
 * group.element[=].target[=].display = "Geriatrie/Schwerpunkt Frauenheilkunde"
@@ -177,13 +201,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0260
 * group.element[=].target[=].display = "Geriatrie/Tagesklinik (für teilstationäre Pflegesätze)"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #0261
 * group.element[=].target[=].display = "Geriatrie/Nachtklinik (für teilstationäre Pflegesätze)"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #GESU
 * group.element[=].display = "Öffentliches Gesundheitswesen"
@@ -198,7 +220,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #1518
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Gefäßchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #1550
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Abdominal- und Gefäßchirurgie"
@@ -223,8 +245,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0105
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #0150
 * group.element[=].target[=].display = "Innere Medizin/Tumorforschung"
@@ -321,6 +342,16 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
+* group.element[=].target[+].code = #0150
+* group.element[=].target[=].display = "Innere Medizin/Tumorforschung"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "verify!"
+
+* group.element[=].target[+].code = #0151
+* group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Coloproktologie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
 * group.element[=].target[+].code = #0152
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Infektionskrankheiten"
 * group.element[=].target[=].equivalence = #narrower
@@ -340,6 +371,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #3601
 * group.element[=].target[=].display = "Intensivmedizin/Schwerpunkt Innere Medizin"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #3610
+* group.element[=].target[=].display = "Intensivmedizin/Schwerpunkt Pädiatrie"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -401,13 +437,19 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[+].code = #INTO
 * group.element[=].display = "Interdisziplinäre Onkologie"
-* group.element[=].target.equivalence = #unmatched
+* group.element[=].target[+].code = #0533
+* group.element[=].target[=].display = "Hämatologie und internistische Onkologie/Schwerpunkt Strahlenheilkunde"
+* group.element[=].target[=].equivalence = #equivalent
+
+* group.element[=].target[+].code = #3305
+* group.element[=].target[=].display = "Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #INTS
 * group.element[=].display = "Interdisziplinäre Schmerzmedizin"
 * group.element[=].target[+].code = #3753
 * group.element[=].target[=].display = "Schmerztherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #INTZ
 * group.element[=].display = "Interdisziplinäre Zusammenarbeit"
@@ -423,8 +465,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0103
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Kardiologie"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #3603
 * group.element[=].target[=].display = "Intensivmedizin/Schwerpunkt Kardiologie"
@@ -439,7 +480,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #1513
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Kinderchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 
 * group.element[+].code = #KIEF
@@ -449,6 +490,9 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[+].code = #KIJU
 * group.element[=].display = "Kinder- und Jugendmedizin"
+* group.element[=].target[+].code = #1000
+* group.element[=].target[=].display = "Pädiatrie"
+* group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[+].code = #1051
 * group.element[=].target[=].display = "Langzeitbereich Kinder"
 * group.element[=].target[=].equivalence = #equal
@@ -481,8 +525,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[+].display = "Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie"
 * group.element[=].target[+].code = #1005
 * group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 
 * group.element[+].code = #KPSY
@@ -502,9 +545,13 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
-
 * group.element[=].target[+].code = #3061
 * group.element[=].target[=].display = "Kinder- und Jugendpsychiatrie/Nachtklinik (für teilstationäre Pflegesätze)"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #3110
+* group.element[=].target[=].display = "Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -518,7 +565,10 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[+].code = #MIKR
 * group.element[=].display = "Mikrobiologie, Virologie und Infektionsepidemiologie"
-* group.element[=].target.equivalence = #unmatched
+* group.element[=].target[+].code = #0152
+* group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Infektionskrankheiten"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #MKGC
 * group.element[=].display = "Mund-Kiefer-Gesichtschirurgie"
@@ -542,8 +592,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #3754
 * group.element[=].target[=].display = "Heiltherapeutische Abteilung"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 
 * group.element[+].code = #NEPH
@@ -554,14 +603,20 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0410
 * group.element[=].target[=].display = "Nephrologie/Schwerpunkt Pädiatrie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #0436
 * group.element[=].target[=].display = "Nephrologie/Intensivmedizin"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #0104
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Nephrologie"
+* group.element[=].target[=].equivalence = #equivalent
+
+* group.element[=].target[+].code = #1004
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Nephrologie"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -600,6 +655,10 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].display = "Neonatologie"
 * group.element[=].target[=].equivalence = #equal
 
+* group.element[=].target[+].code = #1012
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Neonatologie"
+* group.element[=].target[=].equivalence = #equivalent
+
 * group.element[+].code = #NOTF
 * group.element[=].display = "Notfallmedizin"
 * group.element[=].target.equivalence = #unmatched
@@ -607,7 +666,13 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[+].code = #NPAE
 * group.element[=].display = "Neuropädiatrie"
-* group.element[=].target.equivalence = #unmatched
+* group.element[=].target[+].code = #1028
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Kinderneurologie"
+* group.element[=].target[=].equivalence = #equivalent
+
+* group.element[=].target[+].code = #2810
+* group.element[=].target[=].display = "Neurologie/Schwerpunkt Pädiatrie"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #NPAT
 * group.element[=].display = "Neuropathologie"
@@ -633,6 +698,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].display = "Nuklearmedizin"
 * group.element[=].target[=].equivalence = #equal
 
+* group.element[=].target[+].code = #3755
+* group.element[=].target[=].display = "Wirbelsäulenchirurgie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
 
 * group.element[+].code = #ORAL
 * group.element[=].display = "Oralchirurgie"
@@ -644,7 +714,8 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].display = "Orthopädie"
 * group.element[=].target[+].code = #1523
 * group.element[=].target[=].display = "Chirurgie/Schwerpunkt Orthopädie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #2300
 * group.element[=].target[=].display = "Orthopädie"
@@ -657,6 +728,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #2315
 * group.element[=].target[=].display = "Orthopädie/Schwerpunkt Chirurgie"
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
+
+* group.element[=].target[+].code = #2316
+* group.element[=].target[=].display = "Orthopädie und Unfallchirurgie"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -682,6 +758,10 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].display = "Geburtshilfe"
 * group.element[=].target[=].equivalence = #equal
 
+* group.element[=].target[+].code = #1050
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Perinatalmedizin"
+* group.element[=].target[=].equivalence = #equivalent
+
 * group.element[+].code = #PHAR
 * group.element[=].display = "Pharmakologie"
 * group.element[=].target.equivalence = #unmatched
@@ -690,7 +770,8 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].display = "Plastische und Ästhetische Chirurgie"
 * group.element[=].target[+].code = #1519
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Plastische Chirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #1900
 * group.element[=].target[=].display = "Plastische Chirurgie"
@@ -707,6 +788,10 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #0108
 * group.element[=].target[=].display = "Innere Medizin/Schwerpunkt Pneumologie"
+* group.element[=].target[=].equivalence = #equivalent
+
+* group.element[=].target[+].code = #1014
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
@@ -717,11 +802,12 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #1400
 * group.element[=].target[=].display = "Lungen- und Bronchialheilkunde"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #1410
 * group.element[=].target[=].display = "Lungen- und Bronchialheilkunde/Schwerpunkt Pädiatrie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 
 * group.element[+].code = #PSYC
@@ -806,8 +892,17 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].display = "Psychosomatische Medizin und Psychotherapie"
 * group.element[=].target[+].code = #3100
 * group.element[=].target[=].display = "Psychosomatik/Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
+* group.element[=].target[+].code = #2931
+* group.element[=].target[=].display = "Allgemeine Psychiatrie/Schwerpunkt Psychosomatik/Psychotherapie"
+* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "verify"
+
+* group.element[=].target[+].code = #3161
+* group.element[=].target[=].display = "Psychosomatik/Psychotherapie/Nachtklinik (für teilstationäre Pflegesätze)"
+* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "verify"
 
 * group.element[+].code = #RADI
 * group.element[=].display = "Radiologie"
@@ -840,6 +935,9 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].target[=].equivalence = #narrower
 * group.element[=].target[=].comment = "has a special focus"
 
+* group.element[=].target[+].code = #1009
+* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Rheumatologie"
+* group.element[=].target[=].equivalence = #equivalent
 
 
 
@@ -860,8 +958,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * group.element[=].display = "Strahlentherapie"
 * group.element[=].target[+].code = #3233
 * group.element[=].target[=].display = "Nuklearmedizin/Schwerpunkt Strahlenheilkunde"
-* group.element[=].target[=].equivalence = #narrower
-* group.element[=].target[=].comment = "has a special focus"
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #3300
 * group.element[=].target[=].display = "Strahlenheilkunde"
@@ -869,11 +966,13 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #3305
 * group.element[=].target[=].display = "Strahlenheilkunde/Schwerpunkt Hämatologie und internistische Onkologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 * group.element[=].target[+].code = #3350
 * group.element[=].target[=].display = "Strahlenheilkunde/Schwerpunkt Radiologie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #narrower
+* group.element[=].target[=].comment = "has a special focus"
 
 
 
@@ -885,7 +984,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #1520
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Thoraxchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[=].target[+].code = #2021
 * group.element[=].target[=].display = "Thoraxchirurgie/Schwerpunkt Herzchirurgie"
@@ -937,7 +1036,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 * group.element[=].target[+].code = #1516
 * group.element[=].target[=].display = "Allgemeine Chirurgie/Schwerpunkt Unfallchirurgie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 
 * group.element[+].code = #UROL
@@ -954,53 +1053,7 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 
 
 
-
 //no source element:
-* group.element[+].display = "Intensivmedizin/Schwerpunkt Pädiatrie"
-* group.element[=].target[+].code = #3610
-* group.element[=].target[=].display = "Intensivmedizin/Schwerpunkt Pädiatrie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Nephrologie"
-* group.element[=].target[+].code = #1004
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Nephrologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Endokrinologie"
-* group.element[=].target[+].code = #1006
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Endokrinologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Gastroenterologie"
-* group.element[=].target[+].code = #1007
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Gastroenterologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Rheumatologie"
-* group.element[=].target[+].code = #1009
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Rheumatologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Neonatologie"
-* group.element[=].target[+].code = #1012
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Neonatologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde"
-* group.element[=].target[+].code = #1014
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde"
-* group.element[=].target.equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Kinderneurologie"
-* group.element[=].target[+].code = #1028
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Kinderneurologie"
-* group.element[=].target[=].equivalence = #unmatched
-
-* group.element[+].display = "Pädiatrie/Schwerpunkt Perinatalmedizin"
-* group.element[=].target[+].code = #1050
-* group.element[=].target[=].display = "Pädiatrie/Schwerpunkt Perinatalmedizin"
-* group.element[=].target[=].equivalence = #unmatched
-
 * group.element[+].display = "Sonstige Fachabteilung"
 * group.element[=].target[+].code = #3700
 * group.element[=].target[=].display = "Sonstige Fachabteilung"

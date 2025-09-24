@@ -238,6 +238,10 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].target[=].display = "Hämatologie und internistische Onkologie"
 * group.element[=].target[=].equivalence = #equivalent
 * group.element[=].target[=].comment = "verify!"
+* group.element[=].target[+].code = #INNE
+* group.element[=].target[=].display = "Innere Medizin"
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #0151
 * group.element[=].display = "Innere Medizin/Schwerpunkt Coloproktologie"
@@ -245,11 +249,18 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].target[=].display = "Gastroenterologie"
 * group.element[=].target[=].equivalence = #wider
 * group.element[=].target[=].comment = "verify!"
+* group.element[=].target[+].code = #INNE
+* group.element[=].target[=].display = "Innere Medizin"
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[=].comment = "verify!"
 
 * group.element[+].code = #0152
 * group.element[=].display = "Innere Medizin/Schwerpunkt Infektionskrankheiten"
 * group.element[=].target[+].code = #INNE
 * group.element[=].target[=].display = "Innere Medizin"
+* group.element[=].target[=].equivalence = #wider
+* group.element[=].target[+].code = #MIKR
+* group.element[=].target[=].display = "Mikrobiologie, Virologie und Infektionsepidemiologie"
 * group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #0153
@@ -434,12 +445,15 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
+* group.element[=].target[+].code = #ENDO
+* group.element[=].target[=].display = "Endokrinologie und Diabetologie"
+* group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #1007
 * group.element[=].display = "Pädiatrie/Schwerpunkt Gastroenterologie"
 * group.element[=].target[+].code = #GAST
 * group.element[=].target[=].display = "Gastroenterologie"
-* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
@@ -469,7 +483,7 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].display = "Pädiatrie/Schwerpunkt Lungen- und Bronchialheilkunde"
 * group.element[=].target[+].code = #PNEU
 * group.element[=].target[=].display = "Pneumologie"
-* group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].equivalence = #wider
 * group.element[=].target[+].code = #KIJU
 * group.element[=].target[=].display = "Kinder- und Jugendmedizin"
 * group.element[=].target[=].equivalence = #wider
@@ -853,6 +867,7 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
 * group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "equivalent?"
 
 * group.element[+].code = #2950
 * group.element[=].display = "Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung"
@@ -934,7 +949,7 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].display = "Psychosomatik/Psychotherapie"
 * group.element[=].target[+].code = #PSYM
 * group.element[=].target[=].display = "Psychosomatische Medizin und Psychotherapie"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #equivalent
 
 * group.element[+].code = #3110
 * group.element[=].display = "Psychosomatik/Psychotherapie/Schwerpunkt Kinder- und Jugendpsychosomatik"
@@ -985,6 +1000,7 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].target[+].code = #INTO
 * group.element[=].target[=].display = "Interdisziplinäre Onkologie"
 * group.element[=].target[=].equivalence = #equivalent
+* group.element[=].target[=].comment = "verify"
 * group.element[=].target[+].code = #STRA
 * group.element[=].target[=].display = "Strahlentherapie"
 * group.element[=].target[=].equivalence = #wider
@@ -1000,7 +1016,7 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * group.element[=].display = "Dermatologie"
 * group.element[=].target[+].code = #HAUT
 * group.element[=].target[=].display = "Haut- und Geschlechtskrankheiten"
-* group.element[=].target[=].equivalence = #equal
+* group.element[=].target[=].equivalence = #wider
 
 * group.element[+].code = #3460
 * group.element[=].display = "Dermatologie/Tagesklinik (für teilstationäre Pflegesätze)"
