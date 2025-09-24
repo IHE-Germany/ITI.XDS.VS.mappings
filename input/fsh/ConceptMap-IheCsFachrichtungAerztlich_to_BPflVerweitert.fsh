@@ -15,12 +15,11 @@ Description: "IHEXDS practice setting code to Specialty (extended)"
 * experimental = false
 
 // DKGeV: no VS defined
-//* sourceCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
-//* targetCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+* sourceCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
+* targetCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
 
-* group.source = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* group.source = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 * group.target = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
-//* group.target = "http://www.ihe-d.de/fhir/CodeSystem/DkgevFachabteilungsschluessel-erweitert"
 
 * group.element[+].code = #ALCH
 * group.element[=].display = "Allgemeinchirurgie"

@@ -19,12 +19,11 @@ Source: https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Exper
 * experimental = false
 
 // DKGeV: no VS defined
-//* sourceCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
-//* targetCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
+* sourceCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+* targetCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 
 * group.source = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
-//* group.source = "http://www.ihe-d.de/fhir/CodeSystem/DkgevFachabteilungsschluessel-erweitert"
-* group.target = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* group.target = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 
 
 * group.element[+].display = "Allgemeinmedizin"

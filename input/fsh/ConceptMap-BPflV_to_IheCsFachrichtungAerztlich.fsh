@@ -15,11 +15,11 @@ Description: "BPflV -> IheCsFachrichtungAerztlich"
 * experimental = false
 
 // DKGeV: no VS defined
-//* sourceCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel"
-//* targetCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
+* sourceCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel"
+* targetCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
 
 * group.source = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"
-* group.target = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* group.target = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 
 
 //remove for testing purposes

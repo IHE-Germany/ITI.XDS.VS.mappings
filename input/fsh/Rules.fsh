@@ -2,9 +2,11 @@
 
 RuleSet: HeaderDetailRules
 
+//* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+
 * ^status = #draft
 * ^experimental = false
-* ^date = "2025-04-14"
+* ^date = "2025-09-24"
 * ^copyright = "IHE Deutschland e.V."
 
 //wird durch config überschrieben
@@ -26,7 +28,7 @@ RuleSet: HeaderConceptMapRules
 
 
 * status = #draft
-* date = "2025-04-14"
+* date = "2025-09-24"
 //* copyright = "IHE Deutschland e.V."
 * contact.name = "Value Set project team"
 * contact.telecom.system = #url

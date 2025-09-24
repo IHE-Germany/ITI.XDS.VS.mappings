@@ -16,10 +16,10 @@ Description: "IHEXDS practice setting code to Specialty"
 * experimental = false
 
 // DKGeV: no VS defined
-//* sourceCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
-//* targetCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel"
+* sourceCanonical = "http://www.ihe-d.de/fhir/ValueSet/FachrichtungenAerztlich"
+* targetCanonical = "http://fhir.de/ValueSet/dkgev/Fachabteilungsschluessel"
 
-* group.source = "http://ihe-d.de/CodeSystems/FachrichtungenAerztlich"
+* group.source = "http://ihe-d.de/CodeSystems/AerztlicheFachrichtungen"
 * group.target = "http://fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel"
 
 * group.element[+].code = #ALCH
