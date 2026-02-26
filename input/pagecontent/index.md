@@ -4,6 +4,16 @@ Für die Zukunft muss allerdings überlegt werden, ob diese nicht besser auf meh
 
 ### PracticeSetting <-> Bundes-Pflegesatz-Verordnung (DKGeV Fachabteilungen)
 
+Nach §301 SGB V müssen deutsche Krankenhäuser bei der Abrechnung Fachabteilungen nach 
+dem Schlüssel 6 "Fachabteilungen" gemäß Anhang 1 der BPflV kodieren. Zum leichteren Auffinden 
+des PracticeSettingCodes stellen wir daher hier ein Mapping zwischen dem Fachabteilungsschlüssel 
+für Krankenhäuser und dem PracticeSettingCode bereit. In der Regel ist der PracticeSettingCode 
+inhaltsgleich oder allgemeiner als der Fachabteilungsschlüssel. In wenigen Ausnahmen ist 
+der PracticeSettingCode differenzierter als der Fachabteilungsschlüssel. 
+In diesen Fällen ist ein automatisches Mapping nicht möglich. 
+Daher muss die Fachabteilung in diesem Fall selbst entscheiden, 
+welcher PracticeSettingCode für sie am besten geeignet ist.
+
 <div width="500px">
 {% include practiceSetting.svg %}
 </div>

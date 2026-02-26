@@ -7,7 +7,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
 
 * ^url = "http://www.fhir.de/CodeSystem/dkgev/Fachabteilungsschluessel-erweitert"
 
-* ^valueSet = "http://www.fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
+//* ^valueSet = "http://www.fhir.de/ValueSet/dkgev/Fachabteilungsschluessel-erweitert"
 
 * insert HeaderDetailRules
 
@@ -232,7 +232,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #0156  "Innere Medizin/Schwerpunkt Schlaganfallpatienten (Stroke units)"
+* #0156  "Innere Medizin/Schwerpunkt Schlaganfallpatienten"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Neuro"
   * ^property[+].code = #from
@@ -576,7 +576,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #0600  "Endokrinologie (und Diabetologie)"
+* #0600  "Endokrinologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Gastro"
   * ^property[+].code = #from
@@ -875,7 +875,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #1006  "Pädiatrie / Schwerpunkt Endokrinologie - temporär –"
+* #1006  "Pädiatrie / Schwerpunkt Endokrinologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
   * ^property[+].code = #from
@@ -889,7 +889,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #1008  "Pädiatrie / Schwerpunkt Endokrinologie, begleitete Kinder – temporär"
+* #1008  "Pädiatrie/Schwerpunkt Kinderkardiologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
   * ^property[+].code = #from
@@ -922,7 +922,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #1014  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde - temporär –"
+* #1014  "Pädiatrie / Schwerpunkt Lungen- und Bronchialheilkunde"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
   * ^property[+].code = #from
@@ -942,7 +942,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "KiJu"
   * ^property[+].code = #from
   * ^property[=].valueString = "08.08.2022"
-* #1028  "Pädiatrie / Schwerpunkt Kinderneurologie - temporär –"
+* #1028  "Pädiatrie / Schwerpunkt Kinderneurologie"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "KiJu"
   * ^property[+].code = #from
@@ -1829,7 +1829,7 @@ Description: "**Fachabteilungen** (erweitert, Supplement by IHE-D)"
   * ^property[=].valueString = "31.12.2019"
   * ^property[+].code = #status
   * ^property[=].valueCode = #deprecated
-* #2953  "Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik amb"
+* #2953  "Allgemeine Psychiatrie/Schwerpunkt Suchtbehandlung, Tagesklinik"
   * ^property[+].code = #bereich
   * ^property[=].valueString = "Entw"
   * ^property[+].code = #from
